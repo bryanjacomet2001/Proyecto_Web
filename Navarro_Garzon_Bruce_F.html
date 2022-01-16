@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <title>Veterinaria</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-logo">
+            <img src="./img/Logo.png" alt="Logo">
+        </div>
+        <nav class="header-navbar">
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./LinoJaime.html">Nosotros</a></li>
+                <li><a href="./ChiquitoVeraLuis-Servicios.html">Servicios</a></li>
+                <li><a href="./Navarro_Garzon_Bruce_F.html">Galeria</a></li>
+                <li><a href="./SanchezPaivaJordy.html">Contactenos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Imagenes Galeria -->
+    <h2 class="titulo">Galeria de nuestra Veterinaria</h2>
+
+    <section class="imagenes">
+        <div class="img img-1" onclick="myFunction();">
+            <a class="link">Veterinaria Guayaquil</a>
+        </div>
+        <div class="img img-2">
+            <a class="link" href="">Consultas Medicas</a>
+        </div>
+        <div class="img img-3">
+            <a class="link" href="">Consultas Medicas</a>
+        </div>
+        <div class="img img-4">
+            <a class="link" href="">Cirugías</a>
+        </div>
+    </section>
+
+    <!-- Expandir img -->
+    <div class="contenedor">
+        <!-- Cierre -->
+        <span onclick="this.parentElement.style.display='none'" class="cerrarimg">&times;</span>
+
+        <!-- Imagen -->
+        <img class="expandirimg" style="width: 100%" src="#" alt="expandir">
+
+        <!-- Texto-->
+        <div class="imgtext"></div>
+    </div>
+
+    <!-- Formulario-->
+    <section class="agregar-testimonios">
+        <h2>Agrega tus Constulas de nuestra Clínica</h2>
+        <div>
+            <p>Envianos tu consulta, !Siempre lo leemos!</p>
+            <div class="boton-testimonios">
+                <a href="./Navarro_Garzon_Bruce_Form.html">Consutlar</a>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-logo">
+            <img src="./img/Logo.png" alt="Logo">
+        </div>
+
+        <div class="about-us">
+            <h3>Nosotros</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, pariatur.</p>
+        </div>
+        <div class="contact-us">
+            <h3>Contáctenos</h3>
+            <ul>
+                <li><span><img src="#" alt=""></span>(04) 2123456</li>
+                <li><span><img src="#" alt=""></span>Veterinaria@gmail.com</li>
+                <li><span><img src="#" alt=""></span>9 de octubre Calle 2</li>
+            </ul>
+        </div>
+        <div class="working-hours">
+            <h3>Horario de atención</h3>
+            <p>00:09 AM - 16:00 PM</p>
+        </div>
+    </footer>
+
+    <script>
+        const img;
+
+        function myFunction() {
+            let imgs = ['../img/clinica.jpeg', '../img/cirugias.jpg', '../img/operacion.jpg', '../img/consulta.png'];
+
+            // Get the expanded image
+            var expandImg = document.getElementsByClassName("expandirimg");
+            // Get the image text
+            var imgText = document.getElementsByClassName("imgtext");
+            // Use the same src in the expanded image as the image being clicked on from the grid
+            expandImg.src = imgs[1];
+            // Use the value of the alt attribute of the clickable image as text inside the expanded image
+            imgText.innerHTML = imgs.alt;
+            // Show the container element (hidden with CSS)
+            expandImg.parentElement.style.display = "block";
+        }
+    </script>
+</body>
+
+</html>

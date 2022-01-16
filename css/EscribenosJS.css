@@ -1,0 +1,71 @@
+.h{
+    padding-left: 210px;
+}
+
+.formulario{
+ display: flex;
+ flex-direction: column;
+ border: 1px solid #cf47bd;
+ margin-left: 30px;
+ border-radius: 5px;
+ text-align: left;
+ min-width: 120%;
+ max-width: 180%;
+ min-height: 380px;
+ max-height: 550px;
+ margin-bottom: 10px;
+ 
+}
+
+.campos {
+    color: #161515;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 3%;
+}
+
+.campos input{
+    width: 250px;
+}
+
+.campos textarea{
+    padding: 1rem;
+    width: 312px;
+    height: 32px;
+    padding-top: 2%;
+}
+
+.sexo {
+    color: #161515;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 3%;
+}
+
+.sexo input{
+    margin-left: 30px;
+}
+
+.seleccionar {
+    color: #161515;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight:400;
+    margin-top: 3%;
+}
+
+.boton {
+justify-content: center;
+margin-left: 250px;
+}
+
+.boton input {
+    color: #161515;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5%;
+    
+}

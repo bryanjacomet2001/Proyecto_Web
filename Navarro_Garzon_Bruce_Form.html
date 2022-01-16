@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Consultas</title>
+</head>
+
+<body class="fuente">
+    <header>
+        <div class="header-logo">
+            <img src="./img/Logo.png" alt="Logo">
+        </div>
+
+        <nav class="header-navbar">
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./LinoJaime.html">Nosotros</a></li>
+                <li><a href="./ChiquitoVeraLuis-Servicios.html">Servicios</a></li>
+                <li><a href="./Navarro_Garzon_Bruce_F.html">Galeria</a></li>
+                <li><a href="./SanchezPaivaJordy.html">Contactenos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contenido">
+        <h1 class="text-center">Consultas</h1>
+        <div class="formulario">
+            <form id="frmConsultas">
+                <!-- Apellidos Nombres -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <label>Nombres:</label>
+                        <input type="text" name="nombres" id="nombre" class="ftext" placeholder="Nombres">
+                    </div>
+                    <div class="col-md-6">
+                        <label>Apellidos:</label>
+                        <input type="text" name="apellidos" id="apellidos" class="ftext" placeholder="Apellidos">
+                    </div>
+                </div>
+                <!-- Correo y Telefono -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <label>Correo Electrónico:</label>
+                        <input type="email" name="correo" id="correo" class="ftext" placeholder="Correo Electrónico">
+                    </div>
+                    <div class="col-md-6">
+                        <label>Teléfono:</label>
+                        <input type="text" name="telefono" id="telefono" class="ftext" placeholder="Teléfono">
+                    </div>
+                </div>
+                <!-- Radio buttom -->
+                <div class="row">
+                    <div class="col-md-6 form-check-inline">
+                        <label>Género:</label>
+                        <input class="gen" id="fem" type="radio" name="genero" value="F"> Femenino
+                        <input class="gen" id="masc" type="radio" name="genero" value="M"> Masculino
+                        <input class="gen" id="otro" type="radio" name="genero" value="O"> Otro
+                    </div>
+                </div>
+                <!-- Comentarios -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <label>Comentarios</label> <br>
+                        <textarea class="form-control formItem" id="texto" rows="2"></textarea>
+                    </div>
+                </div>
+                <!-- Terminos y condiciones -->
+                <div class="row ">
+                    <div class="col-md-6 ">
+                        <div class="form-check">
+                            <label id="terms-conditions">Acepto términos y condiciones.</label>
+                            <input type="checkbox" class="form-check-input" name="terminos" value="1" id="termino" />
+                        </div>
+                    </div>
+                </div>
+                <!-- boton guardar y cancelar -->
+                <div class="row ">
+                    <div class="col-md-12 text-center ">
+                        <input type="submit" class="btn btn-primary" value="Enviar">
+                        <input type="reset" class="btn btn-primary" value="Cancelar">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-logo ">
+            <img src="./img/Logo.png " alt="Logo ">
+        </div>
+
+        <div class="about-us ">
+            <h3>Nosotros</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, pariatur.</p>
+        </div>
+        <div class="contact-us ">
+            <h3>Contáctenos</h3>
+            <ul>
+                <li><span><img src="# " alt=" "></span>(04) 2123456</li>
+                <li><span><img src="# " alt=" "></span>Veterinaria@gmail.com</li>
+                <li><span><img src="# " alt=" "></span>9 de octubre Calle 2</li>
+            </ul>
+        </div>
+        <div class="working-hours ">
+            <h3>Horario de atención</h3>
+            <p>00:09 AM - 16:00 PM</p>
+        </div>
+    </footer>
+
+    <script src="./js/validaciones_Form.js "></script>
+</body>
+
+</html>

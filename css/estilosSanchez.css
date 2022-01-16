@@ -1,0 +1,130 @@
+
+
+.d {
+    display: flex;
+    justify-content: center;
+    width: 80%; 
+    border: 1px solid green;
+    border-radius: 5%;
+    margin:auto;
+    margin-top: 3%;
+    margin-right: auto;
+}
+
+.d img:hover{
+    width: 180px;
+    height: 180px;
+}
+
+
+.c {
+    width: 250px;
+    float: none ;
+    margin-right: 5%;
+}
+
+.p {
+    color: #6f6f6f;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.letras {
+    text-align: center;
+    border-radius: 10px;
+    padding: 40px 10px 20px 10px;
+}
+
+.subs{
+    padding-top: 100px;
+    padding-left: 90px;
+    background: #6f6f6f;
+    height: 320px;
+    color: #fff;
+}
+
+
+
+.Escribenos img{
+    margin: auto;
+    width: 100%;
+    height: 150%;
+}
+
+.loca img{
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #D61C62;
+    width: 180px;
+    height: 250px;
+}
+
+.anuncio{
+    padding-top: 150px;
+    padding-left: 90px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.65) 0%,rgba(0, 0, 0, 0) 100%);
+    height: 320px;
+    color: #fff;
+}
+.anuncio h1{
+    font-weight: 1000;
+    font-size:xx-large;
+}
+.anuncio div{
+    padding-top: 10px;
+    padding-left: 25px;
+    background-color: #D61C62;
+    border-radius: 5px;
+    width: 300px;
+    height: 45px; 
+}
+.anuncio a{
+    text-decoration: none;
+    color: #fff;
+    cursor:pointer;
+}
+
+footer{
+    margin: 30px;
+}
+
+footer .contact-us ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px 0;
+}
+
+.footer-logo img{
+    width: 160px;
+}
+
+footer h3{
+    margin-bottom: 20px;
+    color: var(--secondary-color);
+}
+
+.miformulario {
+    border: 1px solid #D61C62;
+    background-color: darksalmon;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 50px;
+    padding-top: 10px;
+    width: 15%;
+    height: 35px;
+}
+
+.miformulario p{
+    text-align: center;
+}
+
+.miformulario:hover {
+    border: 1px solid #d61;
+    background-color:darkgray;
+}
+
+.miformulario a:hover {
+    color:darkred;
+}

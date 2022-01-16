@@ -1,0 +1,64 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*formulario*/
+.titulo{
+    margin-left: 40%;
+}
+.formulario{
+    height: 100%;
+    margin: 5% 20%;
+    border-radius: 4%;
+}
+label{
+    display: block;
+    font-size: 1.5rem;
+    
+}
+input:not([type="submit"],[type="checkbox"],[type="radio"],[type="reset"]),textarea,select{
+   padding: 1rem;
+   display: block;
+   width: 95%;
+   background-color: #e1e1e1;
+   margin-bottom: 0.5rem;
+   border: none;
+   border-radius: 1rem;
+}
+fieldset{
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+select{
+    appearance: none;
+}
+textarea{
+    height: 10rem;
+}
+legend{
+font-size: 1.7rem;
+}
+.inlineblok{
+    display: inline-block;
+    margin-right: 1rem;
+}
+.terminos{
+    display: block;
+    font-size: 1rem;
+    background-color: #e1e1e1;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.btn:not([type="reset"]){
+    display: inline-block;
+    margin-left: 45%;
+    
+}
+.btn{
+    padding: 1rem;
+    border:none;
+    background-color: #47cfac;
+}
+.btn:hover{
+    background-color: #1d8b70;
+}
